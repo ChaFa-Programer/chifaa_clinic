@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>حجز موعد</title>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="images/Sans titre.jpg">
+
+</head>
+<body> 
+    <nav>
+        <img class="logo" src="images/logo.png">
+        <h2>عيادة شفاء</h2>
+        <ul>
+            <li><a href="index.html"><h3>الصفحة الرئسية</h3>  </a></li>
+            <li><a href="form.html"><h3>حجز موعد</h3></a></li>
+            <li> <a href="#contact_us"><h3> اتصل بنا</h3></a></li>
+            <li><a href="about.html"><h3>حولنا</h3>  </a></li> 
+         </ul>
+</nav>
+     <!--form section-->
+  <main id="booknow">
+   <img src="images/img3.png"> 
+   <div>
+        <p>اهلا بك في عيادة شفاء، للحجز املء الإستمارة أدناة</p>
+        <form action="index.php" method="post">
+            <input type="text" placeholder="أدخل الاسم" name="name"/>
+            <input type="text" placeholder="  أدخل تاريخ الميلاد" name="date" onfocus="(this.type='date')"/>
+            <input type="text" placeholder="أدخل رقم الهاتف" name="téléphone"/>
+            <input  type="text" placeholder="أدخل تاريخ الحجز" name="date" onfocus="(this.type='date')"/>
+            <select id="dete" name="time">
+                <option value=selected hidden>  احجز الوقت</option>
+                <option value="08:00-09:00" >08:00-09:00</option>
+                <option value="09:00-10:00" >09:00-10:00</option>
+                <option value="10:00-11:00">10:00-11:00</option>
+                <option value="11:00-12:00">11:00-12:00</option>
+                <option value="12:30-13:30">12:30-13:30</option>
+                <option value="13:30-14:30">13:30-14:30</option>
+                <option value="14:30-15:30" >14:30-15:30</option>
+            </select><br>  
+            اختر نوع الجنس:
+            <input class="radiogender" type="radio" name="gender" value="أنثى"/>أنثى 
+            <br>
+            ذكر<input class="radiogender" type="radio" name="gender" value="ذكر"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <br>
+            <input type="submit" value="احجز الان" name="send"/>
+        </form>
+    </div> 
+    </main>
+     <!--footer-->    
+<footer id="contact_us">
+<article>
+    <p>:مواقع التواصل الاجتماعي</p>
+    <br><br><br><br>
+    <a href="https://www.facebook.com/profile.php?id=100085975616525&mibextid=ZbWKwL" target="_blank">Experts Media on facebook</a>
+    <br><br>
+    <a href="https://www.instagram.com/ask_chafa_programer?igshid=MzRlODBiNWFlZA==" target="_blank">Experts Media on instagram</a><br><br><br><br>
+    <p>MAIL</p>:<a href="mailto:askchafaprogramer@gmail.com" target="_blank">iyadetchifaa@gmail.com</a>
+    <br><br><br><br>
+    <pre>&copy; Copyright reserved to ChaFa Programer -06/2023-
+    </pre>
+</article>
+<article>
+    <p>:اتصل بنا</p>
+    <br><br><br><br>
+    <p>ALG</p>:<a href="tel:+213799999999">+213799999999</a>
+    <br><br><br><br>
+    <p>ALG</p>:<a href="tel:+213799999999">+213799999999</a>
+    <br><br><br><br>
+    <p>ALG</p>:<a href="tel:+213799999999">+213799999999</a>
+    <br><br><br><br>
+    <p>ALG</p>:<a href="tel:+213799999999">+213799999999</a>
+</article>
+<article>
+    <img style="width: 50%;" src="images/logo.png"/>
+    <h1>عيادة شفاء</h1>
+    <ul id="footernav">
+        <li><a href="index.html"><h3>الصفحة الرئسية</h3>  </a></li>
+        <li><a href="form.html"><h3>حجز موعد</h3></a></li>
+        <li> <a href="#contact_us"><h3> اتصل بنا</h3></a></li>
+        <li><a href="about.html"><h3>حولنا</h3>  </a></li>
+    </ul>
+</article>    
+</footer>
+</body> 
+</html> 
