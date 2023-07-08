@@ -1,0 +1,268 @@
+nav{
+   width:100%;
+   height: 100px;
+   background-color:rgba(44, 103, 181, 0.338); 
+   padding: 0px;
+   margin: 0px;
+   position: relative;
+}
+
+nav img{
+    height: 90px;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.logo{
+    height: 90px;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+nav h3{
+    font-size: 25px;
+    display: inline;
+    padding: 0%;
+    margin: 0%;
+}
+
+nav h2{
+    position: absolute;
+    padding: 0%;
+    margin: 0%;
+    top: 20%;
+    display: inline;
+    font-size: 50px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+nav ul{
+    float:right;
+    text-decoration: none;
+    position: relative;
+    top: 20%;
+    right: 2%;
+    font-size: 15px;
+}
+
+nav li{
+    width: 20px;
+    height: 20px;
+    display: inline;
+    list-style: none;
+}
+
+nav ul a{
+    padding: 10px 30px 10px 30px;
+    display: inline;
+    clear: both;
+    text-decoration: none;
+    color: white;
+}
+
+nav ul a:hover{
+    border-radius: 10px;
+    background-color: rgba(77, 77, 178, 0.658);
+}
+
+a{
+    text-decoration: none;
+}
+
+/*main section*/
+section{
+    justify-content: center;
+    width: 100%;
+}
+#mainsection{
+    position: relative;
+    height: 800px;
+    clear: both;
+    width: 100%;
+    text-align: center;
+    display:flex;
+    justify-content: space-around;
+    transform: translateY(450px);
+}
+#bkg{
+    padding: 0px;
+    height: 1350px;
+    width: 100%;
+    border-radius: 0;
+    position: absolute;
+}
+span{
+    clear: both;
+    transform: translateX(10%);
+    position: absolute;
+    text-align: center;
+    font-size: 200%;
+}
+#mainsection img{
+    padding: 0px;
+    width: 200px;
+    height: 200px;
+}
+span{
+    padding-top: 5%;
+}
+/*section form*/
+
+main{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+main img{
+    transform: translateX(5%);
+    width:50%;
+}
+main div{
+    transform: translateY(20%);
+    border: solid rgba(44, 103, 181, 0.338);
+    border-radius: 10%;
+    width: 50%;
+    padding-bottom: 0px;
+    height: 500px;
+}
+main p{
+    font-size: 24px;
+}
+
+#dete{
+    width: 51.57%;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+main input{
+    width: 50%;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+main input[type="submit"]{
+    font-size: 16px;
+    color: #000000;
+    background: rgba(44, 103, 181, 0.338);
+    border: none;
+}
+table{
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    font-size: 20px;
+}
+
+th{
+    background: #00a9b0;
+    color: #fff;
+    padding: 5px 0;
+}
+.radiogender{
+    width: auto;
+}
+/*about us*/
+#aboutus{
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    height: 800px;
+}
+#aboutus section{
+    position: relative;
+    width: 30%;
+    height: 100%;
+    left: 50%;}
+#aboutus div{
+    transform: translate(5%,5%);
+    text-align: center;
+    color: #000000;
+    background-color:rgb(238, 238, 252);
+    width: 70%;
+    height: 700px;
+    display: flex;
+    justify-content: space-around;
+    border: solid #93abb1;
+    border-radius: 0% 10% 10% 0%;
+}
+#titleabout{
+    color:  rgb(15, 15, 84);
+    font-size: 50px;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: solid underline;
+}
+#aboutus aside{
+    width: 20%;
+    height: 720px;
+    background-color: rgb(207, 233, 248);
+    border: solid #a4b9bf;
+    position: relative;
+    right: 80%;
+}
+#aboutus aside article{
+    padding: 10%;
+    color: black;
+    font-size: 15px;
+}
+hr{
+    background: rgb(15, 15, 84);
+    height: 4px;
+    width: 70%;
+    border: 0px;
+}
+
+/*contacts section*/
+footer{
+    display: flex;
+    justify-content: space-around;
+}
+footer div{
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    border-radius: 0% 0% 10% 10%;
+}
+footer div img{
+    width: 100%;
+    height: 385px;
+}
+footer article{
+    text-align: center;
+    padding: 3.5%;
+    color: #000000;
+    background-color:rgba(44, 103, 181, 0.338);
+    transform: translate(120,203);
+    width: 33.33%;
+    height: 300px;
+    position: relative;
+}
+footer article p{
+    display: inline;
+    text-decoration: solid rgb(5, 5, 5) underline;
+}
+footer article a{
+    text-decoration: none;
+    color: #3a55b5;
+}
+/*footer nav*/
+ #footernav{
+    width:100%;
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+}
+#footernav h3{
+     font-size: 15px;
+     display: inline;
+     padding: 5%;
+     margin: 0%;
+ }
+#footernav li{
+    width: 20px;
+    height: 20px;
+    display: inline;
+    list-style: none;
+}
